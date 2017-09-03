@@ -12,7 +12,7 @@ const baseFunction = (successFun, failFun) => {
 };
 
 // 能够成功开始计算的时候才会执行的函数
-//发现.then(function(*))  * 这里只能传递一个参数因此我传入了对象
+//发现.then(function(*))  * 这里只能传递一个参数，考虑到fetch函数也只有一个参数！
 const addFunction = (data) => {
     return new Promise((successFun, failFun) => {
         const randomNumber = Math.random() * 2;
@@ -55,4 +55,4 @@ new Promise(baseFunction)
         console.log(msg)
     });
 
-//1.promise 构造函数的参数
+//1.promise 构造函数的参数是一个函数
