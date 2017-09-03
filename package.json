@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node randomNumber.js"
   },
   "author": "",
   "license": "ISC"
