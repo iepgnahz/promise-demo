@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node randomNumber.js"
+    "start": "node randomNumber.js",
+    "compute": "node seriesPromise"
   },
   "author": "",
   "license": "ISC"
